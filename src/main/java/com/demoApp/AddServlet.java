@@ -1,6 +1,7 @@
 package com.demoApp;
 
 import java.io.IOException;
+import java.io.PrintWriter;
 
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
@@ -19,6 +20,8 @@ public class AddServlet extends HttpServlet
 		int k  = i+j;
 		
 		k = k*k;
+		
+		
 		
 		 RequestDispatcher rd = req.getRequestDispatcher("sq");
 		 rd.forward(req, res);
