@@ -19,7 +19,7 @@ public class AddServlet extends HttpServlet
 		
 		int k  = i+j;
 		
-		k = k*k;
+		req.setAttribute("k", k);
 		
 		
 		
